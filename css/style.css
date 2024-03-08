@@ -1,0 +1,62 @@
+header>h1{
+    text-align: center;
+}
+
+.main-container{
+    display: flex;
+}
+
+/* Display Style */
+.container-item{
+    border: 1px solid;
+    border-color: aqua;
+    width: 100%;
+    padding: 24px;
+}
+
+.container-item > h2{
+    text-align: center;
+}
+
+.container-result{
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+.container-form{
+    text-align: left;
+    background-color: aliceblue;
+    padding: 24px;
+}
+
+.container-form > div{
+    padding: 4px;
+}
+
+.form-item{
+    height: 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+}
+
+button{
+    height: 32px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border: none;
+    background-color: lightsteelblue;
+    border-radius: 8px;
+}
+
+#calculate-button{
+    background-color: coral;
+    color: white;
+}
+
+#reset-button{
+   
+}
+

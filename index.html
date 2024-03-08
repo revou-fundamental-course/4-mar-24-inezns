@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Calculator BMI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculator BMI - Inez</h1>
+    </header>
+    <main>
+       <div class="main-container">
+        <!-- Form Display -->
+            <section class="container-item">
+                <h2>Form BMI</h2>
+                <p>Berat badan ideal adalah ...</p>
+                <section class="container-form">
+                    <div>
+                        <label>Jenis Kelamin</label><br/>
+                        <input type="radio" id="sex-female" name="sex" value="sex-female">
+                        <label for="sex-female">Perempuan</label>
+                        <input type="radio" id="sex-male" name="sex" value="sex-male">
+                        <label for="sex-male">Laki-laki</label>
+                    </div>
+                    <div>
+                        <label>Berat Badan (kg)</label><br/>
+                        <input type="number" class="form-item">
+                    </div>
+                    <div>
+                        <button type="button" id="calculate-button">Hitung BMI</button>
+                        <button type="button" id="reset-button">Reset</button>
+                    </div>    
+                    
+                </section>
+            </section>
+            <!-- Result Display -->
+            <section class="container-item">
+                <h2>Result</h2>
+                <section class="container-result">
+                    <h4>Berat Badan Lebih</h4>
+                    <h1>0</h1>
+                    <h4>Anda memiliki berat badan berlebih</h4>
+                    <button type="button">Download Hasil BMI</button>
+                </section>
+            </section>
+       </div> 
+    </main>
+    <footer></footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
