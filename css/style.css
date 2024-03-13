@@ -47,16 +47,38 @@ button{
     padding-right: 24px;
     padding-left: 24px;
     border: none;
-    background-color: lightsteelblue;
+    background-color: blueviolet;
     border-radius: 8px;
 }
 
+button:hover{
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+}
+
 #calculate-button{
-    background-color: coral;
-    color: white;
+    background-color: blueviolet;
+}
+
+#calculate-button:hover{
+    background-color: yellow;
+    color:black;
+    font-weight: bolder;
 }
 
 #reset-button{
-   
+    background-color: lightsteelblue;
 }
 
+#reset-button:hover{
+    background-color: yellow;
+    color:black;
+    font-weight: bolder;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
